@@ -16,13 +16,24 @@ body {
 }
 
 .modal {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.header {
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .icon {
+  flex-shrink: 0;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -34,6 +45,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.text {
+  margin-bottom: 16px;
+}
+
 
 .close-button {
   background: #eee;
